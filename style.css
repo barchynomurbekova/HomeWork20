@@ -6,19 +6,11 @@ box-sizing: border-box;
 
 .houses {
 display: grid;
-grid-template-columns: repeat (3, 1fr);
+grid-template-columns: repeat(3, 1fr);
 gap: 80px;
 }
 
-.houses {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 100px;
-    border: 1px solid rgb(97, 92, 92);
-  }
-  
-   
-  
+
    .house{
     width: 100%;
     position: relative;
@@ -45,3 +37,39 @@ gap: 80px;
      .frame__green{
         background: green;
       }
+
+      .window{
+        position: absolute;
+        left: 50px;
+        height: 100px;
+        width: 30%;
+        bottom: 70px;
+    
+      }
+
+      .window__blue{
+          background-color:  blue;
+      }
+
+      .frame__blue {
+          background-color:  blue;
+      }
+
+      .door__blue {
+          background-color:  blue;
+      }
+
+      .window__yellow {
+          color: yellow;
+      }
+          
+      .frame__yellow {
+          color: yellow;
+      }
+
+      
+      
+
+      
+
+
