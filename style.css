@@ -1,0 +1,47 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.houses {
+display: grid;
+grid-template-columns: repeat (3, 1fr);
+gap: 80px;
+}
+
+.houses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    border: 1px solid rgb(97, 92, 92);
+  }
+  
+   
+  
+   .house{
+    width: 100%;
+    position: relative;
+    height: 300px;
+  }
+
+  .frame{
+    height: 100%;
+    width: 100%;
+    }
+    
+    .door{
+        position: absolute;
+        right: 80px;
+        bottom: 0px;
+        height: 170px;
+        width: 23%;
+      }
+
+      .door__green{
+        background: green;
+     }
+
+     .frame__green{
+        background: green;
+      }
